@@ -17,3 +17,15 @@ Traffic accident forecasting is a significant problem for transportation managem
 Please follow the readme page
 
 # Citation
+```
+@inbook{doi:10.1137/1.9781611977172.38,
+author = {Bang An and Amin Vahedian and Xun Zhou and W. Nick Street and Yanhua Li},
+title = {HintNet: Hierarchical Knowledge Transfer Networks for Traffic Accident Forecasting on Heterogeneous Spatio-Temporal Data},
+booktitle = {Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)},
+chapter = {},
+pages = {334-342},
+doi = {10.1137/1.9781611977172.38},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611977172.38},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611977172.38},
+}
+```
