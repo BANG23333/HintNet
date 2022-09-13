@@ -7,13 +7,11 @@ Traffic accident forecasting is a significant problem for transportation managem
 
 # Environment
 - python 3.7.0
-- torch >= 1.0.1
-- matplotlib 3.1
-- numpy 1.16
-- sklearn
-- seaborn
-- pickle
-
+- torch 1.12.1
+- matplotlib 3.5.2
+- numpy 1.21.5
+- sklearn 1.1.1
+- seaborn 0.11.2
 
 # Run HintNet
 Please follow the readme page
