@@ -3,11 +3,6 @@ import torch
 #from torch.nn.parameter import Parameter
 from torch.nn.modules.module import Module
 
-# the inputs of one GraphConvolution layer include feature matrix and adjacency matrix
-# feature matrix size: (batch_size, node_num, feature_num)
-# adjacency matrix size: (batch_size, feature_num, feature_num)
-
-
 class GraphConv(Module):
 
     def __init__(self, in_f_dim, out_f_dim, bias=True):
