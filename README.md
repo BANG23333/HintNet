@@ -14,7 +14,7 @@ Traffic accident forecasting is a significant problem for transportation managem
 - seaborn 0.11.2
 
 # Run HintNet
-Please follow the readme page
+Please follow the readme page \
 Start with main.py
 
 # Citation
