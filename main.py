@@ -49,7 +49,7 @@ torch.set_printoptions(edgeitems=100)
 # loading traninig and validating data.
 X = np.load(open('E:/HintNet/Data/X_Iowa_2016-2017_7_1.npy', 'rb')) # Specify your data path.
 Y = np.load(open('E:/HintNet/Data/Y_Iowa_2016-2017_7_1.npy', 'rb')) # Specify your data path.
-X, Xv, Y, Yv = train_test_split(X, Y, test_size=0.20, random_state=11) # 31 11
+X, Xv, Y, Yv = train_test_split(X, Y, test_size=0.20, random_state=1)
 
 x_len = X.shape[2] # x_len of your gird
 y_len = X.shape[3] # y_len of your grid
