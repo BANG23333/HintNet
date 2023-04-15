@@ -134,15 +134,15 @@ for i in range(len(scale)-1, -1, -1):
 
 print("Start Model testing ...")
 
-x_len = Xv.shape[2]
-y_len = Xv.shape[3]
+x_len = Xt.shape[2]
+y_len = Xt.shape[3]
     
 out = []
 
 partition_map = lables
 
-pred_map = np.full(Yv.shape, 0.0)
-ctr_map = np.zeros(Yv.shape)
+pred_map = np.full(Yt.shape, 0.0)
+ctr_map = np.zeros(Yt.shape)
 
 plot_map(partition_map)
 
@@ -161,8 +161,8 @@ for i in np.unique(partition_map):
 
 ctr_map = np.where(ctr_map==0, 1, ctr_map)
 final_pred = pred_map/ctr_map
-Yv = np.where(mask==1, Yv, 0.0)
+Yt = np.where(mask==1, Yt, 0.0)
 
 print("testing finished")
-print("MSE: " + str(MSE_np(final_pred, Yv)))
+print("MSE: " + str(MSE_np(final_pred, Yt)))
 
