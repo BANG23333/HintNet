@@ -16,7 +16,6 @@ Traffic accident forecasting is a significant problem for transportation managem
 # Run HintNet
 Please follow the readme page \
 Start with main.py
-Please download data from https://drive.google.com/file/d/1a3mVI31duZroH2M58eemjv6ZFAE63ZnY/view?usp=sharing
 
 # Citation
 ```
